@@ -62,6 +62,7 @@
 
 body {
     font-family: "Medium";
+    width: 100hw !important;
 }
 
 #landing {
@@ -88,12 +89,16 @@ body {
     display: none;
 }
 
-#facilities {
-    margin-bottom: 5%;
+.fac-pic, .fac-text {
+    margin-bottom: 10%;
 }
 
 .heading-bar {
     padding: 60px 0 30px 0;
+}
+
+.circle-holder {
+    margin-bottom: 5%;
 }
 
 .circle {
@@ -108,11 +113,10 @@ body {
 
 #partners {
     position: relative;
-    background-image: url(../images/fdp-bg.png);
+    background-image: url(../images/webp/fdp-bg.webp);
     background-size: cover;
     color: white;
     margin-bottom: 5%;
-    margin-top: 5%;
 }
 
 .partners-holder img {
@@ -156,7 +160,7 @@ body {
 */
 
 .benefits-img-holder {
-    background-image: url(../images/why-cs.png);
+    background-image: url(../images/webp/why-cs.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -164,7 +168,7 @@ body {
 
 #start {
     position: relative;
-    background-image: url(../images/start-bg.png);
+    background-image: url(../images/webp/start-bg.webp);
     background-size: cover;
     color: white;
     margin-bottom: 5%;
@@ -309,10 +313,55 @@ textarea {
 }
 
 @media only screen and (max-width: 600px) {
-    .circle {
-        margin: 0; 
+    .cs-btn {
+        font-size: 16px;
+        padding: 8px 30px;
     }
     
+    .logo {
+        height: 24px;
+    }
+
+    .text-small {
+        font-size: 16px;
+    }
+
+    .text-med {
+        font-size: 20px;
+    }
+
+    .text-big {
+        font-size: 24px;
+    }
+
+    .circle {
+        margin: 0;
+        margin-bottom: 5%;
+    }
+
+    .circle-holder {
+        margin-bottom: 10%;
+    }
+
+    .heading-holder {
+        margin-bottom: 20px;
+    }
+
+    #partners {
+        margin-bottom: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    #start {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    .benefits-img-holder {
+        display: none;
+    }
     .oneliner-holder {
         top: 50%;
         left: 50%;
@@ -320,13 +369,18 @@ textarea {
         transform: translate(-50%, -50%);
     }
     
+    .slogan {
+        text-align: left;
+    }
+
     .one-liner {
         display: none;
     }
-    
+
     .one-liner-resp {
         display: block;
-        font-size: 18px;
+        font-size: 20px;
+        text-align: left;
     }
     
     .social-holder {
