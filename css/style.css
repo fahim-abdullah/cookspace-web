@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #loading {
     position: fixed;
     width: 100%;
@@ -307,6 +311,8 @@ textarea {
 
 .cs-btn:hover {
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 
 .heading-holder {
@@ -396,6 +402,10 @@ textarea {
     #footer {
         padding-top: 10%;
         padding-bottom: 10%;
+    }
+    
+    #pitch {
+        margin-bottom: 50%;
     }
     
 }
