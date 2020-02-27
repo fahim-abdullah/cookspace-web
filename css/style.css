@@ -113,7 +113,7 @@ body {
 
 #partners {
     position: relative;
-    background-image: url(../images/webp/fdp-bg.webp);
+    background-image: url(../images/jpg/fdp-bg.jpg);
     background-size: cover;
     color: white;
     margin-bottom: 5%;
@@ -161,7 +161,7 @@ body {
 */
 
 .benefits-img-holder {
-    background-image: url(../images/webp/why-cs.webp);
+    background-image: url(../images/jpg/why-cs.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -169,7 +169,7 @@ body {
 
 #start {
     position: relative;
-    background-image: url(../images/webp/start-bg.webp);
+    background-image: url(../images/jpg/start-bg.jpg);
     background-size: cover;
     color: white;
     margin-bottom: 5%;
