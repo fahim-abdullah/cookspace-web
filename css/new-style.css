@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("../fonts/CircularStd.ttf");
+}
+
+.logo {
+    height: 5vh;
+}
+
+.logobar {
+    padding: 6vh;
+}
+
+.gilroy {
+    font-family: "Gilroy";
+}
+
+.circular {
+    font-family: "Circular";
+}
+
+.cs-red {
+    color: #ff385a;
+}
+
+body {
+    height: 100vh;
+}
+
+#landing {
+    background-image: url(/images/jpg/blob_2.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.text-holder {
+    padding: 20vh 0;
+}
+
+.text-holder i {
+    font-size: 24px;
+    padding-right: 16px;
+    color: black;
+}
+
+.cs-text {
+    margin-bottom: 8vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .cs-text {
+        margin-bottom: 4vh;
+    }
+    .text-holder {
+        padding: 8vh 4vh;
+    }
+}
