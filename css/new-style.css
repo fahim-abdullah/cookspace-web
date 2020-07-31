@@ -23,7 +23,7 @@
 }
 
 .circular {
-    font-family: "Circular";
+    font-family: "Circular" !important;
 }
 
 .cs-red {
@@ -71,5 +71,6 @@ body {
     }
     body {
         font-weight: inherit;
+        font-family: "Circular";
     }
 }
