@@ -1,11 +1,13 @@
 @font-face {
     font-family: "Gilroy";
     src: url("../fonts/Gilroy-SemiBold.ttf");
+    font-weight: 700;
 }
 
 @font-face {
     font-family: "Circular";
     src: url("../fonts/CircularStd.ttf");
+    font-weight: 400;
 }
 
 .logo {
@@ -57,6 +59,17 @@ body {
         margin-bottom: 4vh;
     }
     .text-holder {
-        padding: 8vh 4vh;
+        padding: 4vh 2vh;
+    }
+    
+    .logobar {
+        padding: 4vh;
+    }
+    
+    .logo {
+        height: 4vh;
+    }
+    body {
+        font-weight: inherit;
     }
 }
