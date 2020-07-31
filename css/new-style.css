@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "Circular";
-    src: url("../fonts/CircularStd.ttf");
+    src: url("../fonts/CircularStd-Book.ttf");
     font-weight: 400;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .text-holder {
-    padding: 20vh 0;
+    padding: 16vh 0;
 }
 
 .text-holder i {
@@ -59,7 +59,7 @@ body {
         margin-bottom: 4vh;
     }
     .text-holder {
-        padding: 4vh 2vh;
+        padding: 8vh 2vh;
     }
     
     .logobar {
