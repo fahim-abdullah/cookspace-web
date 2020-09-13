@@ -100,3 +100,16 @@ body {
     opacity: 0.5;
     margin: 32px 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .heading-1 {
+        font-size: 48px;
+        margin: 48px 0 24px 0;
+        font-family: "Gilroy";
+    }
+
+    .heading-2 {
+        font-size: 32px;
+    }
+    
+}
