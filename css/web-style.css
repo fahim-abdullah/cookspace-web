@@ -8,3 +8,95 @@
     src: url("../fonts/CircularStd-Book.ttf");
 }
 
+body {
+    font-family: "Circular";
+}
+
+.gilroy {
+    font-family: "Gilroy";
+}
+
+.circular {
+    font-family: "Circular";
+}
+
+.bg-red {
+    background-color: #ff385a;
+}
+
+.cs-red {
+    color: #ff385a;
+}
+
+.nav-link {
+    color: black;
+    font-size: 16px;
+    padding: 16px 0;
+}
+
+.nav-link:hover {
+    color: #ff385a;
+}
+
+.btn-red {
+    padding: 8px 16px;
+    background-color: #ff385a;
+    color: white;
+    font-family: "Gilroy";
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.heading-1 {
+    font-size: 64px;
+    margin: 64px 0 32px 0;
+    font-family: "Gilroy";
+}
+
+.heading-2 {
+    font-size: 32px;
+}
+
+.opening-phone {
+    margin: 64px 0;
+}
+
+#first-section {
+    background-attachment: fixed;
+}
+
+#second-section {
+    padding: 64px 0;
+}
+
+.hotels-jumbo {
+    padding: 64px;
+    background-color: #f2f2f2;
+    border-radius: 16px;
+}
+
+#third-section {
+    background-color: black;
+}
+
+.body-text {
+    font-size: 16px;
+    margin: 0;
+}
+
+.five-star-1 {
+    background-image: url('https://paganresearch.io/images/Square.jpg');
+    height: 24vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.packaging-5 {
+    height: 20vh;
+    width: 100%;
+}
+
+.work {
+    opacity: 0.5;
+    margin: 32px 0;
+}

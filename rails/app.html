@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>cookspace - food delivery</title>
+        <link href="/css/web-style.css" rel="stylesheet" />
+    </head>
+    <body>
+        
+        <h1 class="circular" id="demo"></h1>
+        
+        <script>
+            function getMobileOperatingSystem() {
+              var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+              if( userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.match( /iPod/i ) )
+              {
+                  window.location.href = "https://apps.apple.com/us/app/id1529750933";
+
+                return 'Redirecting to App Store';
+
+              }
+              else if( userAgent.match( /Android/i ) )
+              {
+                  window.location.href = "https://play.google.com/store/apps/details?id=co.cookspace.user";
+                  return 'Redirecting to Play Store';
+              }
+              else
+              {
+                  window.location.href = "http://cookspace.co/";
+                  return "Redirecting to Website"
+              }
+            }
+            
+            document.getElementById("demo").innerHTML = getMobileOperatingSystem();
+        </script>
+    
+    </body>
+</html>
