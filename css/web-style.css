@@ -28,6 +28,10 @@ body {
     color: #ff385a;
 }
 
+nav {
+    background-color: rgba(255,255,255,0.75);
+}
+
 .nav-link {
     color: black;
     font-size: 16px;
@@ -47,14 +51,26 @@ body {
     font-size: 14px;
 }
 
+.logo-img{
+    height: 32px;
+}
+
 .heading-1 {
     font-size: 64px;
-    margin: 64px 0 32px 0;
+    margin: 64px 0 16px 0;
     font-family: "Gilroy";
 }
 
 .heading-2 {
     font-size: 32px;
+}
+
+.badges {
+    height: 64px;
+}
+
+.opening-text {
+    margin-top: 80px;
 }
 
 .opening-phone {
@@ -66,7 +82,7 @@ body {
 }
 
 #second-section {
-    padding: 32px 0;
+    padding: 32px 0 64px 0;
 }
 
 .hotels-jumbo {
@@ -78,6 +94,14 @@ body {
 .body-text {
     font-size: 16px;
     margin: 0;
+}
+
+.body-text-2 {
+    font-size: 14px;
+}
+
+.exp-container {
+    margin: 64px 0;
 }
 
 .five-star-1 {
@@ -99,22 +123,240 @@ body {
 
 .item-image {
     border-radius: 16px;
-    margin: 16px 0;
-    
+    margin-bottom: 32px;
+/*    box-shadow: 0 5px 10px rgba(0,0,0,0.36);*/
 }
 
+.mobile-items {
+    display: none;
+}
+
+.rellax-section {
+    padding: 64px 0 80px 0;
+}
+
+.rewards-cards {
+    border-radius: 16px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+}
+
+.payments-jumbo {
+    padding: 32px 32px;
+    border-radius: 16px;
+    background-color: #f2f2f2;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15)
+}
+
+.payments-row * {
+    display: inline-block;
+    margin: 8px 0;
+}
+
+.exp-text-holder {
+    margin: 16px 0 32px 0;
+}
+
+.routing-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.routing-img {
+    border-radius: 16px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+}
+
+.route-bottom-left {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.face-jumbo {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 0;
+}
+
+#fifth-section {
+    background-color: black;
+    color: white;
+    padding: 64px 0;
+    position: relative;
+}
+
+.peekaboo {
+    position: absolute;
+    bottom: 0;
+    right: 64px;
+}
+
+#fifth-section .heading-2 {
+    margin-bottom: 16px;
+}
+
+#footer {
+    padding: 64px 0;
+}
+
+footer {
+    position: relative;
+    background-color: #FFF8FA;
+}
+
+.footer-heading {
+    font-family: "Gilroy";
+    color: #ff385a;
+    margin-bottom: 8px;
+}
+
+footer ul {
+    list-style: none; 
+    padding: 0;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+
+.newsletter-input {
+    padding: 16px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+
+.newsletter-btn {
+    background-color: #ff385a;
+    padding-right: 14px;
+    border-radius: 0 8px 8px 0;
+    color: white;
+}
+
+.newsletter-btn:hover {
+    color: white;
+}
+
+.subscribe {
+    color: #aaa;
+}
+
+a, a:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.getapp:hover {
+    color: white;
+}
+
+#sixth-section {
+    background-color: black;
+    padding: 64px 0;
+}
+
+#sixth-section .heading-1 {
+    margin-bottom: 48px;
+    color: white;
+}
+
+
+
 @media only screen and (max-width: 600px) {
+    .navbar {
+        padding: 16px;
+    }
+    .nav-item {
+        text-align: right;
+    }
+    
+    .nav-link {
+        padding: 8px;
+    }
+    
+    .getapp {
+        margin: 8px 0;
+        width: 100%;
+    }
+    
     .heading-1 {
-        font-size: 48px;
-        margin: 48px 0 24px 0;
+        font-size: 32px;
+        margin: 32px 0 16px 0;
         font-family: "Gilroy";
     }
 
     .heading-2 {
-        font-size: 32px;
+        font-size: 24px;
+    }
+    
+    .body-text {
+        font-size: 16px;
     }
     
     .hotels-jumbo {
         padding: 64px 32px;
+    }
+    
+    #fifth-section {
+        height: 600px
+    }
+    
+    .peekaboo {
+        display: block;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+    .order-text {
+        margin-bottom: 32px;
+    }
+    
+    .opening-phone {
+        margin-top: 32px;
+    }
+    .badges {
+        height: 48px;
+    }
+    .footer-mark {
+        width: 15%;
+        margin-bottom: 32px;
+    }
+    
+    .footer-list {
+        margin-bottom: 32px;
+    }
+    
+    .w-50 {
+        width: 75% !important;
+    }
+    
+    .logo-img {
+        margin-left: calc(50% - 21.5px);
+        height: auto;
+        width: 50%;
+    }
+
+    .rellax {
+        transform: translate3d(0,0,0) !important;
+    }
+    
+    .mobile-items {
+        display: block;
+    }
+    
+    .rellax-section {
+        display: none;
+    }
+    
+    .item-image-last {
+        margin-bottom: 16px;
     }
 }
