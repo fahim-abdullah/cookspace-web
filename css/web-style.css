@@ -52,7 +52,7 @@ nav {
 }
 
 .logo-img{
-    height: 32px;
+    width: 138.67px;
 }
 
 .heading-1 {
@@ -340,7 +340,6 @@ a, a:hover {
     
     .logo-img {
         margin-left: calc(50% - 21.5px);
-        height: auto;
         width: 50%;
     }
 
