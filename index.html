@@ -68,6 +68,7 @@
         <script src="https://unpkg.com/feather-icons"></script>
         <title>cookspace - food delivery</title>
         
+<!--
         <style>
             #loading {
                 width: 100%;
@@ -90,36 +91,39 @@
                 z-index: 100;
             }
         </style>
+-->
     </head>
     <body id="page" onload="myFunction()">
 <!--        <p class="text-white m-0">invisible</p>-->
+<!--
         <div id="loading">
             <div id="loading-div">
                 <p class="m-0">Serving site fresh from kitchen... please wait!</p>
                 <img id="loading-image" src="images/loader.svg" />
             </div>
         </div>
+-->
         <nav class="navbar sticky-top navbar-expand-md justify-content-center">
             <div class="container">
-            <a href="/" class="navbar-brand d-flex w-50 mr-auto"><img src="images/logo-new.svg" class="logo-img" /></a>
-            <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-                <i data-feather="menu"></i>
-            </button>
-            <div class="navbar-collapse collapse w-100" id="collapsingNavbar">
-                <ul class="navbar-nav w-100 justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://forms.gle/9PRtNnpSUjitLuxk8" target="_blank">Subscription <span class="align-top badge text-white bg-red">beta</span></a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-                    <li class="nav-item">
-                        <a href="/app.html"><button class="btn btn-red getapp">Get the App</button></a>
-                    </li>
-                </ul>
-            </div>
+                <a href="/" class="navbar-brand d-flex w-50 mr-auto"><img src="images/logo-new.svg" class="logo-img" /></a>
+                <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                    <i data-feather="menu"></i>
+                </button>
+                <div class="navbar-collapse collapse w-100" id="collapsingNavbar">
+                    <ul class="navbar-nav w-100 justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://forms.gle/9PRtNnpSUjitLuxk8" target="_blank">Subscription <span class="align-top badge text-white bg-red">beta</span></a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a href="/app.html"><button class="btn btn-red getapp">Get the App</button></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
@@ -133,7 +137,7 @@
 
             <div align="center" data-aos="fade-up">
                 <div class="col-md-4">
-                    <img class="opening-phone" src="mockups/menu.png" width="100%"/>
+                    <img class="opening-phone" src="mockups/menu.png" width="80%"/>
                 </div>
             </div>
         </div>
@@ -403,6 +407,7 @@
 
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+<!--
         <script>
             function myFunction() {
                 document.getElementById("page").style.display = "block";
@@ -411,6 +416,7 @@
             feather.replace();
             var rellax = new Rellax('.rellax');
         </script>
+-->
 
         <script>
             AOS.init({disable: 'mobile'});
